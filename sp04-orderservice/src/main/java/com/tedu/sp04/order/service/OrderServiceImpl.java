@@ -44,7 +44,7 @@ public class OrderServiceImpl implements OrderService {
 		
 		//TODO: 调用user-service增加用户积分
 		userService.addScore(7, 100);
-		
+		System.out.println("test111111111");
 		log.info("保存订单："+order);
 	}
 
