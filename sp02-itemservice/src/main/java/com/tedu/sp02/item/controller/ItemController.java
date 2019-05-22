@@ -45,6 +45,7 @@ public class ItemController {
 	@PostMapping("/decreaseNumber")
 	public JsonResult decreaseNumber(@RequestBody List<Item> items) {
 		itemService.decreaseNumbers(items);
+		System.out.println("测试下载1111111111111");
 		return JsonResult.ok();
 	}
 }
